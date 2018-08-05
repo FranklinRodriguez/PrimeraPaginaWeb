@@ -1,0 +1,102 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.primera{
+height: 10px;
+background-color: black;
+}
+header, .main {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+h1{
+  margin: 0%;
+  padding: 0px 20px 0px 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1000%;
+  letter-spacing: -7px;
+ }
+ h4{
+  padding: 0px 20px 40px 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100%;
+  letter-spacing: 5px;
+  background-color: #ffffff;
+  line-height: 0%;
+  }
+.menu {
+width: 100%;
+display:inline-block;
+text-align: center;
+background-color: #fff;
+list-style: none;
+margin: 0%;
+padding: 0%;
+}
+.menu li{
+display:inline-block;
+}
+.menu li a {
+  padding: 10px 20px;
+  display:inline-block;
+  color: black;
+  text-decoration-line: none;
+  float:left;
+  text-align: center
+}
+div {
+  width: 30%;
+  height: 30%;
+  margin: 1.66%;
+  line-height: 180%;
+}
+.segunda{
+  width: 20%;
+  height: 30%;
+  margin: 1.66% 0% 1.66% 3%;
+  position: absolute;
+  top: 38%;
+  bottom: 0;
+  right: 0;
+  left: 38%;
+}
+.tercera{
+  width: 20%;
+  height: 30%;
+  margin: 1.66%;
+  position: absolute;
+  top: 38%;
+  bottom: 0;
+  right: 0;
+  left: 62%;
+}
+.quinta{
+  width: 20%;
+  height: 30%;
+  margin: 1.66% 1% 1.66% 0%;
+  padding: 3%;
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+  right: 0;
+  left: 38%;
+}
+.sexta{
+  width: 20%;
+  height: 30%;
+  margin: 1.66%;
+  position: absolute;
+  top: 69%;
+  bottom: 0;
+  right: 0;
+  left: 62%;
+}
+h2{
+  font-weight: normal;
+  font-size: 26.5px;
+}
