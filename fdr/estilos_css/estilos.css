@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding:0;    
+  }
+.hr { height: 5px;
+  background: #000000;
+ }
+h1 {
+  color: black;
+  font-size:180px;
+  text-align: center;
+  letter-spacing: -9px; 
+   
+}
+.Sub-Titulo1 {
+  color: black;
+  font-size:20px;
+  text-align: center;
+  letter-spacing: 6px;  
+  font-weight:normal; 
+  padding:1%; 
+}
+.menu {
+  width: 100%;
+  background: #ffffff;
+  list-style: none;
+  margin:0;
+  padding:2;
+  text-align: center;
+  word-spacing: 80px;
+  display: inline-block; 
+  
+}
+.menu li {
+  display: inline-block;
+}
+.menu li a {
+  padding:10px 20px;  
+  display: inline-block;
+  text-decoration-line: none;
+  color: #000000;
+  font-weight: bold
+
+  }
+.menu li a:hover {
+    background: #cccccc;
+    }
+.articulo1 {
+  width: 25%;
+  height:60%;
+  margin:6% 4% 2% 3%;
+  }
+.articulo2 {
+  width: 20%;
+  height:60%;
+  margin:-0.1% 0% 1.66% 3%;
+  position: absolute;
+  top:60%;
+  bottom:0;
+  right:0;
+  left:38%;
+}
+.articulo3 {
+  width: 20%;
+  height:60%;
+  margin:-0.1% 0% 1.66% 3%;
+  position: absolute;
+  top:60%;
+  bottom:0;
+  right:0;
+  left:62%;
+}
