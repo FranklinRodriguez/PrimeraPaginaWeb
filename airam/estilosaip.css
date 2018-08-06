@@ -49,20 +49,27 @@ display:inline-block;
   text-align: center
 }
 div {
-  width: 30%;
+  width: 20%;
   height: 30%;
-  margin: 1.66%;
   line-height: 180%;
-}
+  position: relative;
+  top: 38%;
+  bottom: 0%;
+  right: 0%;
+  left: 18%;
+  }
 .segunda{
   width: 20%;
   height: 30%;
-  margin: 1.66% 0% 1.66% 3%;
+  margin: 1.66%;
   position: absolute;
   top: 38%;
   bottom: 0;
   right: 0;
   left: 38%;
+}
+.imagen{
+  margin: 0% -30% 0% 0%;
 }
 .tercera{
   width: 20%;
