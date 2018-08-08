@@ -1,7 +1,11 @@
 *{
   margin:0;
   padding:0;    
-  }
+  box-sizing: border-box; /*Esta propiedad permite
+  incluir el relleno y el borde en el ancho y alto total
+  del elemento*/
+   
+}
 .hr { height: 5px;
   background: #000000;
  }
@@ -70,3 +74,84 @@ h1 {
   right:0;
   left:62%;
 }
+/*Estructura total*/
+.contenedor {
+background:rgb(255, 255, 255);
+width:80%;
+max-width:1000px;
+margin:auto;
+ 
+/* Flexbox */
+display:flex;
+flex-flow:row wrap;
+
+ }
+
+body { background: #ffffff }
+
+/*-- .Titulo, Sub-titulo */
+header   { background:#c2c9cf;
+  width:100%;
+  padding:10px;
+   
+  /* Flexbox */
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+   
+  flex-direction:row;
+  flex-wrap:wrap; }
+
+  div { 
+
+    align-items:center;
+
+   }
+
+/*-- .Menu */
+
+header nav {
+  width:80%;
+  /* Flexbox */
+   
+  display:flex;
+  flex-wrap:wrap;  /*Esta propiedad permite
+  especificar si los elemento flexibles deben ajustarse o no*/
+  align-items:center;
+  
+  }
+   
+  header nav a {
+  background:#ffffff;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  padding:8px;
+  justify-content: center;
+   
+  /* Flexbox */
+  flex-grow:1;
+  }
+   
+  header nav a:hover {
+  background:#f3f0f0;
+  padding:-20px;
+  
+  }
+   
+
+
+
+/*-- .Articulos */
+
+section { }
+
+/*-- Articulos 1 y 2 */
+.main { }
+
+/*Articulos 3*/
+
+aside { }
+
+/*Articulos 4*/
+footer { }
