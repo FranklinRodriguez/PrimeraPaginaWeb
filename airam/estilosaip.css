@@ -1,16 +1,13 @@
 *{
-  margin: 0%;
-  padding: 0%;
-}
-.primera{
+  /*general rules (Reglas Generales)*/
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  }
+.linea_primera{
+  /*<!--rules of the top line of the page (Reglas de la linea Superior de la pagina)-->*/
 height: 10px;
 background-color: black;
-}
-header, .main {
-  background-color: #fff;
-  width: 100%;
-  max-width: 1000px;
-  margin: 20px auto;
 }
 h1{
   margin: 0%;
@@ -31,78 +28,75 @@ h1{
   }
 .menu {
 width: 100%;
-display:inline-block;
-text-align: center;
+/*display:inline-block;*/
+display: -webkit-inline-flex;
+justify-content: center;
+/*text-align: center;*/
 background-color: #fff;
 list-style: none;
 margin: 0%;
-padding: 0%;
+padding: 2.5% 0% 2.5% 0%;
 }
 .menu li{
 display:inline-block;
 }
 .menu li a {
   padding: 10px 20px;
-  display:inline-block;
+  
   color: black;
   text-decoration-line: none;
   text-align: center
 }
-div {
-  width: 20%;
-  height: 30%;
-  line-height: 180%;
-  position: relative;
-  top: 38%;
-  bottom: 0%;
-  right: 0%;
-  left: 18%;
-  }
-.segunda{
-  width: 20%;
-  height: 30%;
-  margin: 1.66%;
-  position: absolute;
-  top: 38%;
-  bottom: 0;
-  right: 0;
-  left: 38%;
-}
-.imagen{
-  margin: 0% -30% 0% 0%;
-}
-.tercera{
-  width: 20%;
-  height: 30%;
-  margin: 1.66%;
-  position: absolute;
-  top: 38%;
-  bottom: 0;
-  right: 0;
-  left: 62%;
-}
-.quinta{
-  width: 20%;
-  height: 30%;
-  margin: 1.66% 1% 1.66% 0%;
-  padding: 3%;
-  position: absolute;
-  top: 90%;
-  bottom: 0;
-  right: 0;
-  left: 38%;
-}
-.sexta{
-  width: 20%;
-  height: 30%;
-  margin: 1.66%;
-  position: absolute;
-  top: 69%;
-  bottom: 0;
-  right: 0;
-  left: 62%;
-}
 h2{
   font-weight: normal;
   font-size: 26.5px;
+}
+
+body{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+
+/* Flex */
+  display: flex;
+  
+/* Definicion de GRID container */
+  display: grid;
+  grid-gap: 1px;
+  grid-template-areas: 
+      "top"
+      "header"
+      "nav"
+      "izquierda"
+      "contenido"
+      "derecha"}
+/* Desktop */
+@media (min-width: 800px) {
+  body{
+    grid-template-areas: 
+    "top top top"
+    "header header header"
+    "nav nav nav"
+    "izquierda contenido derecha"}}
+/* Nombramos los elementos*/
+top{
+  width: 100%;
+  grid-area: top;
+}
+header{
+  width: 100%;
+  grid-area: header;
+}
+nav{
+  width: 100%;
+  grid-area: nav;
+}
+aside:first-of-type{
+  grid-area: izquierda;
+}
+main{
+  grid-area: contenido;
+}
+aside:last-of-type{
+  grid-area: derecha;
 }
